@@ -27,8 +27,8 @@ showBtn.addEventListener("click", () => {
   var allFormatDates = getAllFormatDate(dobEl.value);
   var res = allFormatDates.map((i) => checkPalindrome(i)).includes(true);
   if (!res) {
-    msg.innerHTML = "Not a Plaindrome!";
+    msg.innerHTML = "Not a Plaindrome !";
   } else {
-    msg.innerHTML = "Its a Plaindrome!";
+    msg.innerHTML = "Its a Plaindrome !";
   }
 });

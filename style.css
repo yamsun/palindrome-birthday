@@ -1,0 +1,36 @@
+body {
+    font-weight: 900;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+body > * {
+    color: rgb(133, 27, 186);
+    margin: auto;
+    margin-top: 1.5em;
+    /* background-color: rgb(195, 131, 245); */
+    max-width: 50vw;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+}
+
+button{
+    background-color: rgb(133, 27, 186);;
+    color: rgb(245, 240, 240);
+    border: none;
+    cursor: pointer;
+}
+
+#message {
+    color: rgb(133, 27, 186);
+    /* background-color: rgb(252, 207, 148); */
+    margin: auto;
+    margin-top: 1em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
